@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #16213e !important;
+    background-image: url("testimonies.png");
+    background-repeat: repeat;
+    background-position: left center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1 {
+    font-style: bold;
+    text-align: center;
+    font-size: 30px;
+    color: #01aef0;
+  }
+
+  form {
+    border: 2px solid #01aef0;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    width: 600px;
+    margin: 30px auto;
+  }
+
+  label {
+    position: relative;
+    float: left;
+    width: 60px;
+    color: white;
+  }
+
+  input[type="text"] {
+    font-style: bold;
+    position: relative;
+    margin-left: 50px;
+    border-radius: 4px;
+    border: 1px solid #16213e;
+    line-height: 20px;
+  }
+
+  .linha {
+    padding: 5px;
+  }
+  

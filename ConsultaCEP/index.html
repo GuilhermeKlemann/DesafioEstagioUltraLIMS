@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <title>Consulta de Endereço</title>
+    </head>
+    <body>
+        <h1>Consulta de endereço via Cep</h1>
+        <form method="get" action="." id="formEndereco">
+            <div class="linha">
+                <label>Cep: </label>
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+                    onblur="pesquisacep(this.value);" />
+            </div>
+            <div class="linha">
+                <label class="label_1">Cidade:</label>
+                <input name="cidade" type="text" id="cidade" size="40" />
+            </div>
+            <div class="linha">
+                <label>Bairro:</label>
+                <input name="bairro" type="text" id="bairro" size="40" />
+            </div>
+            <div class="linha">
+                <label>Estado:</label>
+                <input name="uf" type="text" id="uf" size="2" />
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
